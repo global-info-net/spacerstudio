@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#05050a">
+
+  <meta name="google-site-verification" content="wqDVEHvuQ14lzMtLiEWIOLE-gQHNpV_k75GhLLfVGdA">
+  <meta name="monetag" content="69de0ae2199d8d09cd14dbb19b0f01a7">
+
+  <script>
+    (function(s){
+      s.dataset.zone='12196498';
+      s.src='https://nap5k.com';
+    })([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')));
+  </script>
+
+  <title>Social Media Bio & Caption Spacer - 100% Free Formatting Spacer</title>
+  <meta name="description" content="Format social media bios, captions and paragraphs with clean line breaks. Use this free text spacer to create readable, copy-ready formatting in seconds.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #05050a;
+      --panel: #101018;
+      --panel2: #151520;
+      --border: #292936;
+      --text: #f7f7fb;
+      --muted: #a1a1b2;
+      --accent: #f43f5e;
+      --accent2: #fb7185;
+      --green: #4ade80;
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      background: var(--bg);
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(ellipse at 50% -15%, rgba(244,63,94,.16), transparent 42%),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    button, textarea, select { font: inherit; }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(100% - 32px, 1040px);
+      margin-inline: auto;
+    }
+
+    .topbar {
+      padding: 19px 0;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -.3px;
+    }
+
+    .brand-mark {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border-radius: 11px;
+      color: white;
+      background: linear-gradient(135deg, #f43f5e, #be123c);
+      box-shadow: 0 5px 24px rgba(244,63,94,.25);
+    }
+
+    .hero {
+      padding: 52px 0 28px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px;
+      border: 1px solid rgba(244,63,94,.3);
+      border-radius: 999px;
+      color: #fda4af;
+      background: rgba(244,63,94,.08);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--accent);
+    }
+
+    h1 {
+      max-width: 800px;
+      margin: 20px auto 13px;
+      font-size: clamp(31px, 6vw, 54px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+      font-weight: 850;
+    }
+
+    .gradient-text {
+      color: var(--accent2);
+      background: linear-gradient(90deg, #fb7185, #f43f5e, #fda4af);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-copy {
+      max-width: 650px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .tool-wrap {
+      padding: 18px 0 45px;
+    }
+
+    .tool-card {
+      padding: clamp(17px, 4vw, 30px);
+      border: 1px solid var(--border);
+      border-radius: 25px;
+      background: linear-gradient(145deg, rgba(24,24,35,.97), rgba(12,12,19,.98));
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+    }
+
+    .card-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 17px;
+    }
+
+    .card-heading h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: -.4px;
+    }
+
+    .private-note {
+      color: #a1a1aa;
+      font-size: 11px;
+      white-space: nowrap;
+    }
+
+    .field-label {
+      display: block;
+      margin: 0 0 9px;
+      color: #e4e4eb;
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      min-height: 205px;
+      resize: vertical;
+      padding: 17px;
+      border: 1px solid #343442;
+      border-radius: 15px;
+      outline: none;
+      background: #090910;
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.75;
+      transition: border-color .2s, box-shadow .2s;
+    }
+
+    textarea::placeholder { color: #696979; }
+
+    textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(244,63,94,.12);
+    }
+
+    .counter-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 11px 2px 20px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .counter-row strong {
+      color: #fda4af;
+      font-weight: 800;
+    }
+
+    .settings {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 13px;
+      margin-bottom: 18px;
+    }
+
+    .setting {
+      padding: 12px 13px;
+      border: 1px solid var(--border);
+      border-radius: 13px;
+      background: rgba(255,255,255,.025);
+    }
+
+    .setting label {
+      display: block;
+      margin-bottom: 7px;
+      color: #d4d4df;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    select {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid #343442;
+      border-radius: 9px;
+      outline: none;
+      background: #0b0b13;
+      color: white;
+      font-size: 13px;
+    }
+
+    select:focus { border-color: var(--accent); }
+
+    .primary-btn {
+      display: flex;
+      width: 100%;
+      min-height: 54px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 18px;
+      border: 0;
+      border-radius: 13px;
+      background: linear-gradient(100deg, #e11d48, #f43f5e 55%, #fb7185);
+      color: white;
+      font-size: 15px;
+      font-weight: 850;
+      cursor: pointer;
+      box-shadow: 0 9px 28px rgba(244,63,94,.2);
+      transition: transform .2s, filter .2s;
+    }
+
+    .primary-btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+    .primary-btn:active { transform: translateY(0); }
+
+    .secondary-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 11px;
+    }
+
+    .secondary-btn {
+      flex: 1;
+      padding: 11px;
+      border: 1px solid #353542;
+      border-radius: 11px;
+      background: #171721;
+      color: #dedee8;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .secondary-btn:hover { border-color: #77778a; }
+
+    .result-area {
+      display: none;
+      margin-top: 22px;
+      padding-top: 21px;
+      border-top: 1px solid var(--border);
+    }
+
+    .result-area.visible { display: block; }
+
+    .result-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .result-badge {
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: rgba(74,222,128,.1);
+      color: var(--green);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .output {
+      min-height: 110px;
+      padding: 16px;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+      border: 1px solid rgba(244,63,94,.25);
+      border-radius: 13px;
+      background: #090910;
+      color: #fce7eb;
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .status {
+      min-height: 22px;
+      margin-top: 10px;
+      color: var(--green);
+      font-size: 12px;
+    }
+
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 13px;
+      margin: 20px 0 48px;
+    }
+
+    .benefit {
+      padding: 17px;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      background: rgba(255,255,255,.025);
+    }
+
+    .benefit-icon {
+      margin-bottom: 8px;
+      color: #fb7185;
+      font-size: 19px;
+    }
+
+    .benefit h3 {
+      margin: 0 0 5px;
+      font-size: 13px;
+    }
+
+    .benefit p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .content-section {
+      padding: 28px 0;
+      border-top: 1px solid rgba(255,255,255,.07);
+    }
+
+    .section-title {
+      margin: 0 0 12px;
+      font-size: clamp(21px, 4vw, 29px);
+      letter-spacing: -.8px;
+    }
+
+    .content-section p {
+      color: #aaaaba;
+      font-size: 14px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 13px;
+      margin-top: 19px;
+    }
+
+    .step {
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--panel);
+    }
+
+    .step-number {
+      display: inline-grid;
+      width: 27px;
+      height: 27px;
+      place-items: center;
+      margin-bottom: 9px;
+      border-radius: 8px;
+      background: rgba(244,63,94,.13);
+      color: #fb7185;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .step h3 { margin: 0 0 5px; font-size: 13px; }
+    .step p { margin: 0; font-size: 12px; }
+
+    .directory {
+      margin: 22px 0 45px;
+      padding: 21px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: #0d0d15;
+    }
+
+    .directory-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .directory-head h2 {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .directory-head span {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .directory-scroll {
+      max-height: 290px;
+      overflow-y: auto;
+      padding: 4px 7px 4px 0;
+      scrollbar-color: #444452 #14141d;
+      scrollbar-width: thin;
+    }
+
+    .directory-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 8px;
+    }
+
+    .directory-grid a {
+      display: block;
+      min-width: 0;
+      padding: 10px 11px;
+      overflow-wrap: anywhere;
+      border: 1px solid #272733;
+      border-radius: 9px;
+      background: rgba(255,255,255,.025);
+      color: #c9c9d6;
+      font-size: 11px;
+      text-decoration: none;
+      transition: border-color .2s, color .2s, background .2s;
+    }
+
+    .directory-grid a:hover {
+      border-color: rgba(244,63,94,.55);
+      background: rgba(244,63,94,.07);
+      color: #fda4af;
+    }
+
+    .faq-list { margin-top: 14px; }
+
+    details {
+      margin: 9px 0;
+      padding: 13px 15px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--panel);
+    }
+
+    summary {
+      color: #f0f0f6;
+      font-size: 13px;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    details p {
+      margin-bottom: 0;
+      font-size: 13px !important;
+    }
+
+    footer {
+      padding: 24px 0 35px;
+      border-top: 1px solid rgba(255,255,255,.07);
+      color: #777786;
+      text-align: center;
+      font-size: 11px;
+    }
+
+    @media (max-width: 650px) {
+      .shell { width: min(100% - 22px, 1040px); }
+      .hero { padding-top: 39px; }
+      h1 { letter-spacing: -1.2px; }
+      .hero-copy { font-size: 13px; }
+      .card-heading { align-items: flex-start; flex-direction: column; }
+      .settings, .benefits, .steps { grid-template-columns: 1fr; }
+      .directory-grid { grid-template-columns: 1fr; }
+      .directory { padding: 15px; }
+      .private-note { white-space: normal; }
+      textarea { min-height: 180px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="shell">
+      <a class="brand" href="./" aria-label="Spacer Studio home" style="text-decoration:none">
+        <span class="brand-mark">S</span>
+        <span>SPACER<span style="color:#fb7185">STUDIO</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="eyebrow"><span class="eyebrow-dot"></span> Free online text formatting tool</div>
+      <h1 id="page-title">Social Media Bio & <span class="gradient-text">Caption Spacer</span></h1>
+      <p class="hero-copy" id="intro-copy">
+        Give your social media text a cleaner look. Add readable paragraph spacing,
+        organize your bio and prepare beautifully formatted captions in seconds.
+      </p>
+    </section>
+
+    <section class="tool-wrap shell" aria-label="Text spacer generator">
+      <div class="tool-card">
+        <div class="card-heading">
+          <h2>✦ Your text formatting workspace</h2>
+          <span class="private-note">Your text is processed in this browser</span>
+        </div>
+
+        <label class="field-label" for="input-text">Paste or type your text</label>
+        <textarea id="input-text" placeholder="Write your bio, caption or paragraph here...
+
+Example:
+Creating moments worth remembering
+Travel • Lifestyle • Photography
+Follow along for more ✨"></textarea>
+
+        <div class="counter-row">
+          <span><strong id="char-count">0</strong> characters</span>
+          <span><strong id="word-count">0</strong> words</span>
+          <span><strong id="line-count">0</strong> lines</span>
+        </div>
+
+        <div class="settings">
+          <div class="setting">
+            <label for="spacing-mode">Formatting style</label>
+            <select id="spacing-mode">
+              <option value="clean">Clean paragraph spacing</option>
+              <option value="double">Double line spacing</option>
+              <option value="single">Single line spacing</option>
+              <option value="bio">Bio line formatting</option>
+            </select>
+          </div>
+          <div class="setting">
+            <label for="blank-lines">Blank lines between blocks</label>
+            <select id="blank-lines">
+              <option value="1">1 blank line</option>
+              <option value="2" selected>2 blank lines</option>
+              <option value="3">3 blank lines</option>
+              <option value="4">4 blank lines</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="primary-btn" id="format-copy" type="button">
+          <span>✧</span> Format &amp; Copy Spaced Text
+        </button>
+
+        <div class="secondary-actions">
+          <button class="secondary-btn" id="format-only" type="button">Format Preview</button>
+          <button class="secondary-btn" id="clear-text" type="button">Clear Text</button>
+        </div>
+
+        <div class="result-area" id="result-area" aria-live="polite">
+          <div class="result-title">
+            <span>Your formatted text</span>
+            <span class="result-badge">READY TO USE</span>
+          </div>
+          <div class="output" id="output-text"></div>
+          <div class="status" id="status-message"></div>
+        </div>
+      </div>
+
+      <div class="benefits">
+        <div class="benefit">
+          <div class="benefit-icon">↵</div>
+          <h3>Cleaner line breaks</h3>
+          <p>Organize text into readable blocks without awkward spacing.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">✦</div>
+          <h3>Copy-ready formatting</h3>
+          <p>Prepare text you can paste into supported social platforms.</p>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">⌁</div>
+          <h3>Instant word count</h3>
+          <p>Track characters, words and lines as you write.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section shell">
+      <h2 class="section-title" id="how-title">How to format your social media text</h2>
+      <p id="how-copy">
+        Use the spacer to organize a profile bio, caption or longer post. Add your
+        text, choose a spacing style and copy the result when it looks right.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-number">01</span>
+          <h3>Enter your text</h3>
+          <p>Paste the caption, profile description or paragraph you want to improve.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">02</span>
+          <h3>Choose your spacing</h3>
+          <p>Select a formatting style and decide how much space to put between blocks.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">03</span>
+          <h3>Copy and paste</h3>
+          <p>Preview your formatted result, copy it and paste it into your social profile.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section shell">
+      <h2 class="section-title">Why use a social media text spacer?</h2>
+      <p>
+        Social posts can become difficult to scan when every sentence runs together.
+        Consistent paragraph breaks make captions easier to read and help separate
+        profile details, calls to action and supporting information. This free
+        formatting tool gives you control over those breaks before you publish.
+      </p>
+      <p>
+        Platform editors may handle whitespace differently. Always preview your
+        copied text in the destination app before publishing, especially when using
+        profile fields with character limits or automatic formatting.
+      </p>
+    </section>
+
+    <section class="content-section shell">
+      <div class="directory">
+        <div class="directory-head">
+          <h2>Explore platform formatting tools</h2>
+          <span id="directory-count">60 formatting topics</span>
+        </div>
+        <div class="directory-scroll">
+          <nav class="directory-grid" id="directory-grid" aria-label="Social media formatting topics">
+            <a href="?p=caption-spacer-generator-for-instagram">Caption spacer generator for Instagram</a>
+            <a href="?p=bio-line-break-tool-for-instagram">Bio line break tool for Instagram</a>
+            <a href="?p=paragraph-formatter-for-instagram">Paragraph formatter for Instagram</a>
+            <a href="?p=aesthetic-clean-text-maker-for-instagram">Aesthetic clean text maker for Instagram</a>
+            <a href="?p=hidden-space-multiplier-for-instagram">Hidden space multiplier for Instagram</a>
+            <a href="?p=hashtag-cleaner-formatter-for-instagram">Hashtag cleaner formatter for Instagram</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section shell">
+      <h2 class="section-title">Frequently asked questions</h2>
+      <div class="faq-list">
+        <details>
+          <summary>What does a social media spacer generator do?</summary>
+          <p>It organizes text using line breaks and blank lines so bios, captions and paragraphs are easier to scan. You can preview and copy the formatted result.</p>
+        </details>
+        <details>
+          <summary>Can I use this tool for Instagram bios and captions?</summary>
+          <p>Yes. You can prepare text for Instagram and other social platforms. Check the final result inside the app because each platform may display whitespace differently.</p>
+        </details>
+        <details>
+          <summary>Does the spacer add invisible Unicode characters?</summary>
+          <p>No. This tool uses ordinary text and newline characters to create spacing. It does not rely on hidden Unicode characters or guarantee that a platform will preserve every line break.</p>
+        </details>
+        <details>
+          <summary>Is this text formatter free?</summary>
+          <p>Yes. The formatting, preview and copy functions run in your browser without requiring an account.</p>
+        </details>
+        <details>
+          <summary>Why does my copied text look different in an app?</summary>
+          <p>Some social apps collapse repeated spaces or adjust line breaks in specific fields. Preview your text after pasting and make any final adjustments in the destination app.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      Spacer Studio · Free social media text formatting utility
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const input = document.getElementById("input-text");
+      const charCount = document.getElementById("char-count");
+      const wordCount = document.getElementById("word-count");
+      const lineCount = document.getElementById("line-count");
+      const modeSelect = document.getElementById("spacing-mode");
+      const blankSelect = document.getElementById("blank-lines");
+      const output = document.getElementById("output-text");
+      const resultArea = document.getElementById("result-area");
+      const status = document.getElementById("status-message");
+
+      const phrases = [
+        "caption-spacer-generator-for",
+        "bio-line-break-tool-for",
+        "paragraph-formatter-for",
+        "aesthetic-clean-text-maker-for",
+        "hidden-space-multiplier-for",
+        "hashtag-cleaner-formatter-for"
+      ];
+
+      const platforms = [
+        "instagram",
+        "tiktok",
+        "facebook",
+        "threads",
+        "linkedin",
+        "twitter-x",
+        "youtube-shorts",
+        "whatsapp-status",
+        "snapchat",
+        "pinterest"
+      ];
+
+      const platformNames = {
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "facebook": "Facebook",
+        "threads": "Threads",
+        "linkedin": "LinkedIn",
+        "twitter-x": "Twitter/X",
+        "youtube-shorts": "YouTube Shorts",
+        "whatsapp-status": "WhatsApp Status",
+        "snapchat": "Snapchat",
+        "pinterest": "Pinterest"
+      };
+
+      const phraseNames = {
+        "caption-spacer-generator-for": "Caption Spacer Generator",
+        "bio-line-break-tool-for": "Bio Line Break Tool",
+        "paragraph-formatter-for": "Paragraph Formatter",
+        "aesthetic-clean-text-maker-for": "Aesthetic Clean Text Maker",
+        "hidden-space-multiplier-for": "Hidden Space Multiplier",
+        "hashtag-cleaner-formatter-for": "Hashtag Cleaner Formatter"
+      };
+
+      function updateCounters() {
+        const value = input.value;
+        charCount.textContent = value.length.toLocaleString();
+        const words = value.trim() ? value.trim().split(/\s+/).length : 0;
+        wordCount.textContent = words.toLocaleString();
+        lineCount.textContent = value.length ? value.split(/\r\n|\r|\n/).length : 0;
+      }
+
+      /*
+       * Normalize line endings and remove trailing whitespace from each line.
+       * Existing paragraph boundaries are retained, while excessive blank
+       * lines are consolidated before the selected spacing style is applied.
+       */
+      function formatText(raw) {
+        const normalized = raw
+          .replace(/\r\n?/g, "\n")
+          .replace(/\u00a0/g, " ")
+          .replace(/[ \t]+$/gm, "")
+          .trim();
+
+        if (!normalized) return "";
+
+        const blocks = normalized
+          .split(/\n\s*\n+/)
+          .map(function (block) {
+            return block
+              .split("\n")
+              .map(function (line) { return line.trim(); })
+              .filter(function (line) { return line.length > 0; })
+              .join("\n");
+          })
+          .filter(Boolean);
+
+        const mode = modeSelect.value;
+        const blankLines = Number(blankSelect.value);
+
+        if (mode === "single") {
+          return blocks.join("\n");
+        }
+
+        if (mode === "double") {
+          return blocks.join("\n\n\n");
+        }
+
+        if (mode === "bio") {
+          return blocks.join("\n");
+        }
+
+        return blocks.join("\n" + "\n".repeat(blankLines));
+      }
+
+      function showPreview() {
+        const formatted = formatText(input.value);
+
+        if (!formatted) {
+          resultArea.classList.add("visible");
+          output.textContent = "";
+          status.textContent = "Enter some text to create your formatted version.";
+          return "";
+        }
+
+        output.textContent = formatted;
+        resultArea.classList.add("visible");
+        status.textContent = "Preview ready. Check the formatting before copying.";
+        return formatted;
+      }
+
+      async function copyFormattedText() {
+        const formatted = showPreview();
+        if (!formatted) return;
+
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(formatted);
+          } else {
+            const temporary = document.createElement("textarea");
+            temporary.value = formatted;
+            temporary.setAttribute("readonly", "");
+            temporary.style.position = "fixed";
+            temporary.style.opacity = "0";
+            temporary.style.pointerEvents = "none";
+            document.body.appendChild(temporary);
+            temporary.select();
+            const copied = document.execCommand("copy");
+            temporary.remove();
+
+            if (!copied) throw new Error("Clipboard copy was not available");
+          }
+
+          status.textContent = "✓ Formatted text copied. Paste it into your social media app.";
+        } catch (error) {
+          status.textContent = "Copy was blocked by your browser. Select the preview text and copy it manually.";
+        }
+      }
+
+      input.addEventListener("input", updateCounters);
+      document.getElementById("format-copy").addEventListener("click", copyFormattedText);
+      document.getElementById("format-only").addEventListener("click", showPreview);
+
+      document.getElementById("clear-text").addEventListener("click", function () {
+        input.value = "";
+        output.textContent = "";
+        resultArea.classList.remove("visible");
+        status.textContent = "";
+        updateCounters();
+        input.focus();
+      });
+
+      function titleCase(value) {
+        return value
+          .split("-")
+          .map(function (part) {
+            if (part === "x") return "X";
+            if (part === "tiktok") return "TikTok";
+            if (part === "youtube") return "YouTube";
+            if (part === "shorts") return "Shorts";
+            if (part === "whatsapp") return "WhatsApp";
+            return part.charAt(0).toUpperCase() + part.slice(1);
+          })
+          .join(" ");
+      }
+
+      function initializeProgrammaticPages() {
+        const params = new URLSearchParams(window.location.search);
+        const requested = (params.get("p") || "").toLowerCase().trim();
+        const safeSlug = /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(requested) ? requested : "";
+        const pageTitle = document.getElementById("page-title");
+        const intro = document.getElementById("intro-copy");
+        const howTitle = document.getElementById("how-title");
+        const howCopy = document.getElementById("how-copy");
+        const description = document.querySelector('meta[name="description"]');
+
+        if (!safeSlug) {
+          document.title = "Social Media Bio & Caption Spacer - 100% Free Formatting Spacer";
+          pageTitle.innerHTML = 'Social Media Bio & <span class="gradient-text">Caption Spacer</span>';
+          intro.textContent = "Give your social media text a cleaner look. Add readable paragraph spacing, organize your bio and prepare beautifully formatted captions in seconds.";
+          howTitle.textContent = "How to format your social media text";
+          howCopy.textContent = "Use the spacer to organize a profile bio, caption or longer post. Add your text, choose a spacing style and copy the result when it looks right.";
+          description.content = "Format social media bios, captions and paragraphs with clean line breaks. Use this free text spacer to create readable, copy-ready formatting in seconds.";
+          return;
+        }
+
+        let matchedPhrase = "";
+        let matchedPlatform = "";
+
+        for (let i = 0; i < phrases.length; i++) {
+          for (let j = 0; j < platforms.length; j++) {
+            const candidate = phrases[i] + platforms[j];
+            if (safeSlug === candidate) {
+              matchedPhrase = phrases[i];
+              matchedPlatform = platforms[j];
+              break;
+            }
+          }
+          if (matchedPhrase) break;
+        }
+
+        const extracted = titleCase(safeSlug);
+        const uppercaseTitle = extracted.toUpperCase();
+        const platform = matchedPlatform ? platformNames[matchedPlatform] : "your social media platform";
+        const toolName = matchedPhrase ? phraseNames[matchedPhrase] : "Social Media Text Formatter";
+
+        document.title = uppercaseTitle + " - 100% Free Formatting Spacer";
+        pageTitle.innerHTML = "";
+        const headingText = document.createTextNode(toolName + " for ");
+        const highlight = document.createElement("span");
+        highlight.className = "gradient-text";
+        highlight.textContent = platform;
+        pageTitle.appendChild(headingText);
+        pageTitle.appendChild(highlight);
+
+        intro.textContent = "Use this free " + toolName.toLowerCase() + " for " + platform +
+          " to organize your text, create clean line breaks and prepare readable captions or profile content. Paste your text, choose a spacing style and copy your formatted result.";
+
+        howTitle.textContent = "How to use the " + toolName + " for " + platform;
+        howCopy.textContent = "This " + platform + " formatting tool helps arrange profile text, captions and paragraphs with consistent line breaks. Enter your content, select the spacing you prefer and preview the result before copying it.";
+
+        description.content = "Free " + toolName.toLowerCase() + " for " + platform +
+          ". Format bios, captions and paragraphs with clean line breaks, preview your text and copy the result in seconds.";
+      }
+
+      function buildDirectory() {
+        const grid = document.getElementById("directory-grid");
+        const fragment = document.createDocumentFragment();
+        let total = 0;
+
+        phrases.forEach(function (phrase) {
+          platforms.forEach(function (platform) {
+            const slug = phrase + platform;
+            const link = document.createElement("a");
+            link.href = "?p=" + encodeURIComponent(slug);
+            link.textContent = phraseNames[phrase] + " for " + platformNames[platform];
+            fragment.appendChild(link);
+            total++;
+          });
+        });
+
+        grid.replaceChildren(fragment);
+        document.getElementById("directory-count").textContent = total + " formatting topics";
+      }
+
+      window.onload = function () {
+        initializeProgrammaticPages();
+        buildDirectory();
+        updateCounters();
+      };
+    })();
+  </script>
+</body>
+</html>
